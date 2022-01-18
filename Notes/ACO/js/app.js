@@ -31,5 +31,7 @@ function draw(){
     }else{
         diameter++;
     }
+
+    //draws the circle that follows the mouse, with diameter following the above if/else statement
     circle(mouseX, mouseY, diameter);
 }
