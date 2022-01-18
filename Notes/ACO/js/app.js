@@ -1,3 +1,6 @@
+/*Summer Sexton
+January 18, 2021*/
+
 function setup(){
     createCanvas(400, 300);
 }
