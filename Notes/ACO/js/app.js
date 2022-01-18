@@ -1,11 +1,12 @@
 /*Summer Sexton
-January 18, 2021*/
+January 18, 2021
+N220*/
 
 function setup(){
     createCanvas(400, 300);
 }
 
-//Will allow for a number to output to the console
+//Will allow for a number to output to the console, and the start of the diameter
 let count = 0;
 let diameter = 1;
 
