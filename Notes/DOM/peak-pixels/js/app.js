@@ -1,3 +1,9 @@
+/*Summer Sexton 
+
+NEWM-N 220 
+
+February 10, 2022 */
+
 let num = 100;
 let divGrow = document.createElement("div");
     divGrow.style.backgroundColor = "#3d634f";

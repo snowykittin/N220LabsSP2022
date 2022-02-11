@@ -1,3 +1,9 @@
+/*Summer Sexton 
+
+NEWM-N 220 
+
+February 10, 2022 */
+
 let chameleon = document.createElement("div");
 chameleon.style.backgroundColor = "#00ffff";
 chameleon.style.width = "100px";
