@@ -1,3 +1,10 @@
+/*Summer Sexton 
+
+NEWM-N 220 
+
+February 10, 2022 */
+
+
 let fakePet = {
     x: 150,
     y: 150,

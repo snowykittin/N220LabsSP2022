@@ -1,3 +1,10 @@
+/*Summer Sexton 
+
+NEWM-N 220 
+
+February 10, 2022 */
+
+
 function setup(){
     createCanvas(250, 300);
 }
@@ -29,12 +36,3 @@ function buildSnowman(color){
     circle(objSnowman.x, objSnowman.secondY, objSnowman.secondDiam);
     circle(objSnowman.x, objSnowman.thirdY, objSnowman.thirdDiam);
 };
-
-
-
-/* Logging values for debugging sake
-console.log(objDetails.color);
-console.log(objDetails.x);
-console.log(objDetails.y);
-console.log(objDetails.width);
-console.log(objDetails.height);*/

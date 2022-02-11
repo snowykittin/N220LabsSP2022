@@ -1,3 +1,9 @@
+/*Summer Sexton 
+
+NEWM-N 220 
+
+February 10, 2022 */
+
 function setup(){
     createCanvas(800, 600);
 }
