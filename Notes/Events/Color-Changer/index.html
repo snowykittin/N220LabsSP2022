@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Changer</title>
+    <style>
+      body {
+        width: 100%;
+        display: flex;
+      }
+      /* Sets the base parameters for each square */
+      .squareBase {
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+        background-color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="listener squareBase" data-color="red"></div>
+    <div class="listener squareBase" data-color="green"></div>
+    <div class="listener squareBase" data-color="blue"></div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
