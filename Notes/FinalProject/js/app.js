@@ -1,3 +1,7 @@
+/*Summer Sexton
+NEWM-N 220
+April 26, 2022*/
+
 let dvCard = document.getElementsByClassName("card");
 let dvPairResult = document.getElementById("pairInfo");
 let pairFound = 0;
