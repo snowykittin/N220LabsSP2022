@@ -14,38 +14,56 @@
       }
       .card {
         border: 2px solid #000;
-        width: 200px;
-        height: 200px;
+        width: 60px;
+        height: 60px;
         margin: 20px;
         text-align: center;
         font-size: 20px;
+        background-color: #fff;
+      }
+      .hidden {
+        background-color: #000;
+      }
+      .removed {
+        border: 2px solid #fff;
+        background-color: #fff;
+        color: #fff;
+      }
+
+      .meta {
+        margin: 0 auto;
+        width: max-content;
       }
     </style>
   </head>
   <body>
     <div class="row">
-      <div class="card" data-tag="cat"></div>
-      <div class="card" data-tag="dog"></div>
-      <div class="card" data-tag="fish"></div>
-      <div class="card" data-tag="cat"></div>
+      <div class="card hidden" data-tag="cat"></div>
+      <div class="card hidden" data-tag="dog"></div>
+      <div class="card hidden" data-tag="fish"></div>
+      <div class="card hidden" data-tag="cat"></div>
     </div>
     <div class="row">
-      <div class="card" data-tag="rat"></div>
-      <div class="card" data-tag="bunny"></div>
-      <div class="card" data-tag="snake"></div>
-      <div class="card" data-tag="dog"></div>
+      <div class="card hidden" data-tag="rat"></div>
+      <div class="card hidden" data-tag="bunny"></div>
+      <div class="card hidden" data-tag="snake"></div>
+      <div class="card hidden" data-tag="dog"></div>
     </div>
     <div class="row">
-      <div class="card" data-tag="horse"></div>
-      <div class="card" data-tag="fish"></div>
-      <div class="card" data-tag="lizard"></div>
-      <div class="card" data-tag="snake"></div>
+      <div class="card hidden" data-tag="horse"></div>
+      <div class="card hidden" data-tag="fish"></div>
+      <div class="card hidden" data-tag="lizard"></div>
+      <div class="card hidden" data-tag="snake"></div>
     </div>
     <div class="row">
-      <div class="card" data-tag="lizard"></div>
-      <div class="card" data-tag="rat"></div>
-      <div class="card" data-tag="bunny"></div>
-      <div class="card" data-tag="horse"></div>
+      <div class="card hidden" data-tag="lizard"></div>
+      <div class="card hidden" data-tag="rat"></div>
+      <div class="card hidden" data-tag="bunny"></div>
+      <div class="card hidden" data-tag="horse"></div>
+    </div>
+    <div class="meta">
+      <div id="pairInfo">Pairs Found: 0</div>
+      <button onclick="window.location.reload()">Restart Game</button>
     </div>
     <script src="js/app.js"></script>
   </body>
